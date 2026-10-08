@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Pushkar Raj Tiwari">
+<meta name="creator" content="Pushkar Raj Tiwari">
+<meta name="last-modified-by" content="Pushkar Raj Tiwari">
+<title>COI Tracker | Vendor insurance certificates, tracked for you</title>
+<meta name="description" content="Forward a certificate of insurance and we read it, check it against your requirements, and chase vendors before it expires. Built for small property managers and contractors.">
+<style>
+  :root { --ink:#1a1f2b; --muted:#5b6475; --bg:#ffffff; --soft:#f4f6f9; --line:#e2e6ec; --accent:#1f6f5c; --accent-ink:#ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8ebf0; --muted:#a3abb9; --bg:#12151b; --soft:#1a1e26; --line:#2a303b; --accent:#3fae8e; --accent-ink:#0b1210; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:var(--bg); }
+  .wrap { max-width:960px; margin:0 auto; padding:0 16px; }
+  header { padding:20px 0; border-bottom:1px solid var(--line); }
+  header .wrap { display:flex; justify-content:space-between; align-items:center; }
+  .logo { font-weight:700; }
+  .btn { display:inline-block; background:var(--accent); color:var(--accent-ink); padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:600; }
+  .btn.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  .hero { padding:64px 0 48px; }
+  h1 { font-size:clamp(28px,5vw,44px); line-height:1.15; margin:0 0 16px; }
+  h2 { font-size:28px; margin:0 0 16px; }
+  .lead { font-size:19px; color:var(--muted); max-width:640px; }
+  .cta-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:24px; }
+  section { padding:48px 0; border-top:1px solid var(--line); }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+  .card { background:var(--soft); border:1px solid var(--line); border-radius:12px; padding:20px; }
+  .card h3 { margin:0 0 8px; font-size:18px; }
+  .price { font-size:32px; font-weight:700; }
+  .price small { font-size:15px; font-weight:400; color:var(--muted); }
+  .card.featured { border:2px solid var(--accent); }
+  ul.checks { padding-left:18px; margin:8px 0 0; }
+  .pilot { background:var(--soft); border-radius:12px; padding:28px; border:1px solid var(--line); }
+  .fine { font-size:14px; color:var(--muted); }
+  footer { padding:32px 0; color:var(--muted); font-size:14px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="logo">COI Tracker</span>
+    <a class="btn ghost" href="#pilot">Join the pilot</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <h1>Stop chasing vendor insurance certificates in a spreadsheet.</h1>
+    <p class="lead">Forward a certificate of insurance to your inbox address. We read the ACORD 25, flag what's missing against your requirements, and email your vendors before it expires. Set up in 10 minutes. No vendor logins.</p>
+    <div class="cta-row">
+      <a class="btn" href="#pilot">Become a founding pilot</a>
+      <a class="btn ghost" href="#how">See how it works</a>
+    </div>
+    <p class="fine">Built for property managers, HOA managers and contractors with 10 to 150 vendors.</p>
+  </div>
+
+  <section id="problem">
+    <div class="wrap">
+      <h2>One lapsed certificate can become your claim.</h2>
+      <div class="grid">
+        <div class="card"><h3>Renewals slip</h3>A landscaper's policy expired in March. Nobody noticed until a slip-and-fall in June.</div>
+        <div class="card"><h3>Certificates are wrong</h3>No additional insured, $500k instead of $1M, missing waiver of subrogation. It's easy to miss on page one of a PDF.</div>
+        <div class="card"><h3>Chasing takes hours</h3>Reminder emails, follow-ups, saving attachments to a folder. Every month.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <div class="grid">
+        <div class="card"><h3>1. Forward or upload</h3>Send the COI PDF to your private inbox address, or drag it in.</div>
+        <div class="card"><h3>2. Review in seconds</h3>We extract insured, carrier, policies, limits, additional insured, waiver and dates. You confirm anything we're unsure about.</div>
+        <div class="card"><h3>3. See who's compliant</h3>Requirement templates per vendor type give a clear pass/fail. Dashboard: Expired, Due in 30 days, Compliant.</div>
+        <div class="card"><h3>4. Reminders go out for you</h3>Vendors get emails at 30, 14 and 7 days with a one-click upload link. No account needed.</div>
+      </div>
+      <p class="fine">Audit-ready PDF/CSV export whenever an owner, board or insurer asks.</p>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <h2>Simple pricing</h2>
+      <div class="grid">
+        <div class="card"><h3>Free</h3><div class="price">$0</div><ul class="checks"><li>Up to 10 vendors</li><li>Extraction and reminders</li></ul></div>
+        <div class="card"><h3>Starter</h3><div class="price">$29<small>/mo</small></div><ul class="checks"><li>Up to 50 vendors</li><li>Requirement templates</li></ul></div>
+        <div class="card featured"><h3>Pro</h3><div class="price">$59<small>/mo</small></div><ul class="checks"><li>Up to 150 vendors</li><li>Audit export</li><li>Priority support</li></ul></div>
+        <div class="card"><h3>Team</h3><div class="price">$119<small>/mo</small></div><ul class="checks"><li>Up to 400 vendors</li><li>Multiple users</li></ul></div>
+      </div>
+      <p class="fine">Annual billing: 2 months free. Cancel anytime. No setup fees.</p>
+    </div>
+  </section>
+
+  <section id="pilot">
+    <div class="wrap">
+      <div class="pilot">
+        <h2>Founding pilot: 50% off for 12 months</h2>
+        <p>We're onboarding 5 founding customers by hand. You get half price on any plan, locked for a year, and a direct line to the person building it. In return: a 20-minute call now and honest feedback after a month.</p>
+        <div class="cta-row">
+          <!-- Replace TALLY_FORM_URL with your Tally form link. Fields: name, email, company, role, # vendors, how you track today -->
+          <a class="btn" href="TALLY_FORM_URL">Apply for the pilot</a>
+          <a class="btn ghost" href="mailto:hello@YOURDOMAIN.com?subject=COI%20Tracker%20pilot">Email instead</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <p><strong>Do you verify coverage with the insurance carrier?</strong><br>No. We track and organize the certificates your vendors send and check what's written on them against your requirements. A certificate is not proof of coverage; for that, contact the issuing agent or carrier.</p>
+      <p><strong>Where are my documents stored?</strong><br>In private, encrypted cloud storage. Files are never public and links expire.</p>
+      <p><strong>Do my vendors need an account?</strong><br>No. They get an email with a one-click upload link.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">COI Tracker tracks certificates of insurance; it does not provide insurance advice or verify coverage. &copy; 2026</div>
+</footer>
+</body>
+</html>
