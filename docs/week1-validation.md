@@ -81,7 +81,7 @@ Honest MRR math: at ~$40 average revenue per account, $500 MRR needs ~13 paying 
 | # | Task | Time | Done when |
 |---|---|---|---|
 | 1 | **Try 2 competitors as a customer.** Sign up free for TrackMyVendor and TrustLayer, add 3 vendors, upload a sample ACORD 25 (public sample PDFs are fine). Note what is slow, confusing or missing. | 1.5 h | 1 page of notes: "what free already gives them" |
-| 2 | **Buy a domain, deploy the landing page.** Use `landing/index.html` in this folder. Host on Azure Static Web Apps (free tier). Pilot form via Tally (free); replace the form URL placeholder. | 1.5 h | Live URL; form submissions reach your inbox |
+| 2 | **Deploy the landing page.** Live on Vercel at https://coi-tracker-swart.vercel.app. Still to do: create the Tally pilot form and replace `TALLY_FORM_URL`; replace `YOURDOMAIN` in the email link; optional custom domain (~$12). | 1.5 h | Live URL; form submissions reach your inbox |
 | 3 | **5 problem interviews** (2 insurance agents, 3 property managers or GCs). Use people you know, your own agent, or your agent's referrals. These are conversations, not cold pitches. Script in section 6. | 3 h | 5 call notes; current tool, # vendors, what they'd pay |
 | 4 | **2 helpful community answers.** Find recent threads in r/PropertyManagement or r/Construction asking about COI tracking; answer the question properly. Mention the checker/pilot only if directly relevant. | 1 h | 2 genuine answers posted |
 | 5 | **Collect sample COIs for week 2.** Ask the agents from task 3 for 10–20 redacted ACORD 25s; gather public samples. | 0.5 h | ≥10 PDFs in a private folder |
